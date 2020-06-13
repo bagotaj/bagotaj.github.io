@@ -24,5 +24,22 @@ p {
 }
 
 p:hover {
-  color: red;
+  animation-name: fontopacity;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fontopacity {
+  0% {
+    opacity: 1;
+    color: red;
+  }
+  50% {
+    opacity: 0.5;
+    color: green;
+  }
+  100% {
+    opacity: 0;
+    color: blue;
+  }
 }
