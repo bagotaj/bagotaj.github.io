@@ -21,25 +21,83 @@ p {
   padding-left: 5px;
   padding-top: 5px;
   display: inline;
+  opacity: 0;
 }
 
-p:hover {
+#first {
   animation-name: fontopacity;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
+  animation-duration: 6s;
+}
+
+#second {
+  animation-name: fontopacity;
+  animation-duration: 6s;
+  animation-delay: 2s;
+}
+
+#third {
+  animation-name: fontopacity;
+  animation-duration: 6s;
+  animation-delay: 1s;
+}
+
+#fourth,
+#seventh {
+  animation-name: fontopacity;
+  animation-duration: 6s;
+  animation-delay: 1.5s;
+}
+
+#fifth {
+  animation-name: fontopacity;
+  animation-duration: 6s;
+  animation-delay: 2.5s;
+}
+
+#sixth {
+  animation-name: fontopacity;
+  animation-duration: 6s;
+  animation-delay: 1.8s;
+}
+
+#eighth {
+  animation-name: fontopacity;
+  animation-duration: 6s;
+  animation-delay: 2.7s;
+}
+
+#ninth {
+  animation-name: fontopacity;
+  animation-duration: 6s;
+  animation-delay: 3s;
+}
+
+#tenth {
+  animation-name: fontopacity;
+  animation-duration: 6s;
+  animation-delay: 3.5s;
+}
+
+#eleventh {
+  animation-name: fontopacity;
+  animation-duration: 6s;
+  animation-delay: 4s;
 }
 
 @keyframes fontopacity {
   0% {
-    opacity: 1;
-    color: red;
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
   }
   50% {
+    opacity: 1;
+  }
+  75% {
     opacity: 0.5;
-    color: green;
   }
   100% {
     opacity: 0;
-    color: blue;
   }
 }
