@@ -1,103 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: white;
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
 
 div {
-  width: 300px;
-  height: 200px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  font-family: "Open Sans", sans-serif;
-  text-align: justify;
+    width: 300px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    text-align: justify;
 }
 
 p {
-  padding-left: 5px;
-  padding-top: 5px;
-  display: inline;
-  opacity: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    display: inline;
+    opacity: 0;
 }
 
 #first {
-  animation-name: fontopacity;
-  animation-duration: 6s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
 }
 
 #second {
-  animation-name: fontopacity;
-  animation-duration: 6s;
-  animation-delay: 2s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
+    animation-delay: 2s;
 }
 
 #third {
-  animation-name: fontopacity;
-  animation-duration: 6s;
-  animation-delay: 1s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
+    animation-delay: 1s;
 }
 
 #fourth,
 #seventh {
-  animation-name: fontopacity;
-  animation-duration: 6s;
-  animation-delay: 1.5s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
+    animation-delay: 1.5s;
 }
 
 #fifth {
-  animation-name: fontopacity;
-  animation-duration: 6s;
-  animation-delay: 2.5s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
+    animation-delay: 2.5s;
 }
 
 #sixth {
-  animation-name: fontopacity;
-  animation-duration: 6s;
-  animation-delay: 1.8s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
+    animation-delay: 1.8s;
 }
 
 #eighth {
-  animation-name: fontopacity;
-  animation-duration: 6s;
-  animation-delay: 2.7s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
+    animation-delay: 2.7s;
 }
 
 #ninth {
-  animation-name: fontopacity;
-  animation-duration: 6s;
-  animation-delay: 3s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
+    animation-delay: 3s;
 }
 
 #tenth {
-  animation-name: fontopacity;
-  animation-duration: 6s;
-  animation-delay: 3.5s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
+    animation-delay: 3.5s;
 }
 
 #eleventh {
-  animation-name: fontopacity;
-  animation-duration: 6s;
-  animation-delay: 4s;
+    animation-name: fontopacity;
+    animation-duration: 6s;
+    animation-delay: 4s;
 }
 
 @keyframes fontopacity {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
 }
