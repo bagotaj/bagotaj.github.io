@@ -16,8 +16,12 @@
             crossorigin="anonymous"
         />
     </head>
-    <body onload="startApp()">
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+    <body
+        onload="startApp()"
+        data-toggle="collapse"
+        data-target=".navbar-collapse.show"
+    >
+        <nav class="navbar fixed-top navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">
                 <img
                     src="logodesign.svg"
@@ -37,7 +41,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto float-right text-right pr-3">
                     <li class="nav-item">
                         <a
                             class="nav-link"
