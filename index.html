@@ -10,7 +10,7 @@
     <div class="center">
       <div><h1>Hello, I'm József Bagota...</h1></div>
       <div>
-        <p id="first" onmouseover="displayWord(this)">...</p>
+        <p id="dots">...</p>
         <p id="second" onmouseover="displayWord(this)">a freelance</p>
         <p id="third" onmouseover="displayWord(this)">graphic</p>
         <p id="fourth" onmouseover="displayWord(this)">designer</p>
@@ -23,13 +23,18 @@
         <p id="eleventh" onmouseover="displayWord(this)">JavaScript.</p>
       </div>
       <div>
+        <p id="dots">...</p>
         <a
           href="http://www.shutterstock.com/hu/g/bagotajozsef"
           onmouseover="displayWord(this)"
-          >...graphics</a
+          >graphics</a
         >
       </div>
     </div>
+    <div class="canvas-wrapper">
+      <canvas id="canvas"></canvas>
+    </div>
     <script src="./js/main.js"></script>
+    <script src="./js/canvas.js"></script>
   </body>
 </html>

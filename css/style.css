@@ -19,6 +19,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  z-index: 1000;
 }
 
 .center div:nth-child(2) {
@@ -27,12 +29,27 @@ body {
 
 p {
   background-color: transparent;
-  color: rgb(60, 60, 60);
+  color: #1c3341;
   display: inline;
-  opacity: 0.1;
+  opacity: 0;
+}
+
+#dots {
+  opacity: 1;
 }
 
 a {
-  opacity: 0.1;
+  opacity: 0;
   text-decoration: none;
+  color: #008773;
+}
+
+.canvas-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  position: fixed;
+  background-color: white;
 }
